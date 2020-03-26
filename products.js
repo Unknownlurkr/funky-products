@@ -6,16 +6,16 @@ req.open('GET', requestUrl);
 
 req.responseType = 'json';
 
-requestUrl.send();
+req.send();
 
-requestUrl.onload = function(){
+req.onload = function(){
     var strangeProduct = req.response;
     console.log(strangeProduct);
-    products(strangeProdcut);
-}
+    strangeProducts(strangeProduct);
+};
 
-function strangeProducts(jsonObj){
-    let strangeProducts = jsonObj.strangeProducts;
+function products(jsonObj){
+    let strangeProducts = jsonObj.strangeProduct;
     for(let i = 0; i < strangeProducts.length; i++){
         let info = document.createElement('article');
         let h2 = document.createElement('h2');
