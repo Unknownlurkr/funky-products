@@ -24,5 +24,15 @@ function strangeProducts(jsonObj){
         let p2 = document.createElement('p');
         let section = document.querySelector('section');
         img.setAttribute('src', 'https://unknownlurkr.github.io/funky-products/img' + strangeProducts[i].image);
+        img.setAttribute('alt', strangeProducts[i].name);
+        h2.textContent = strangeProdcuts[i].name;
+        p1.textContent = 'details' + strangeProducts[i].details;
+        p2.textContent = 'price' + strangeProducts[i].price;
+        info.appendChild(img);
+        info.appendChild(h2);
+        info.appendChild(p1);
+        info.appendChild(p2);
+        section.appendChild(article);
+
     }
 }
