@@ -23,6 +23,6 @@ function strangeProducts(jsonObj){
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let section = document.querySelector('section');
-        img.setAttribute('src', '')
+        img.setAttribute('src', 'https://unknownlurkr.github.io/funky-products/img' + strangeProducts[i].image);
     }
 }

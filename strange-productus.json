@@ -4,31 +4,31 @@
         "name": "Bag of nothing",
         "price": 10.00,
         "details": "Just a big of air. A bag full of nothing.",
-        "imageLocation": "https://i0.wp.com/bestlifeonline.com/wp-content/uploads/2018/08/nothing.jpg?w=1024&ssl=1"
+        "imageLocation": "../img/nothing.jpg"
     },
     {
-        "Name": "Danny Diveto Cut-out",
+        "Name": "Danny Devito Cut-out",
         "price": 150.00,
-        "details": "A life-sizecut out of Danny.",
-        "imageLocation": "https://i0.wp.com/bestlifeonline.com/wp-content/uploads/2018/08/danny-devito-cutout.jpg?w=1024&ssl=1"
+        "details": "A life-sizecut out of Danny Devito.",
+        "imageLocation": "../img/danny-devito-cutout.jpg"
     },
     {
         "Name": "Turkey Hat",
         "price": 8.49,
         "details": "A hat shaped like a turkey",
-        "imageLocation":"https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2018/08/turkey-hat.jpeg?w=1024&ssl=1"
+        "imageLocation":"../img/trukey-hat.jpeg"
     },
     {
         "Name": "Blood Bathroom Matt",
         "price":15.00,
         "details":"Step on the matt and prank your roomates!",
-        "mageLocation":"https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2018/08/bloody-bath-mat.jpg?w=1024&ssl=1"
+        "mageLocation":"../img/bloody-bath-mat.jpg"
     },
 {
         "name":"WineRack Bra",
         "price": 30.00,
         "details":"Hide your booze and take your booze on the go.",
-        "imageLocation":"https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2018/08/wine-rack-bra.jpg?w=1024&ssl=1"
+        "imageLocation":"../img/wine-rack-bra.jpg"
     }
   ]
 }
