@@ -7,19 +7,19 @@
         "imageLocation": "../img/nothing.jpg"
     },
     {
-        "Name": "Danny Devito Cut-out",
+        "name": "Danny Devito Cut-out",
         "price": 150.00,
         "details": "A life-sizecut out of Danny Devito.",
         "imageLocation": "../img/danny-devito-cutout.jpg"
     },
     {
-        "Name": "Turkey Hat",
+        "name": "Turkey Hat",
         "price": 8.49,
         "details": "A hat shaped like a turkey",
         "imageLocation":"../img/trukey-hat.jpeg"
     },
     {
-        "Name": "Blood Bathroom Matt",
+        "name": "Blood Bathroom Matt",
         "price":15.00,
         "details":"Step on the matt and prank your roomates!",
         "mageLocation":"../img/bloody-bath-mat.jpg"

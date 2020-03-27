@@ -9,25 +9,25 @@ req.responseType = 'json';
 req.send();
 
 req.onload = function(){
-    var strangeProduct = req.response;
-    console.log(strangeProduct);
-    strangeProducts(strangeProduct);
+    var products = req.response;
+    console.log(products);
+    strangeProducts(products);
 };
 
-function products(jsonObj){
-    let strangeProducts = jsonObj.strangeProduct;
-    for(let i = 0; i < strangeProducts.length; i++){
+function strangeProducts(jsonObj){
+    let strangeProd = jsonObj.strangeProducts;
+    for(let i = 0; i < strangeProd.length; i++){
         let info = document.createElement('article');
         let h2 = document.createElement('h2');
         let img = document.createElement('img');
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let section = document.querySelector('section');
-        img.setAttribute('src', 'https://unknownlurkr.github.io/funky-products/img/' + strangeProducts[i].image);
-        img.setAttribute('alt', strangeProducts[i].name);
-        h2.textContent = strangeProdcuts[i].name;
-        p1.textContent = 'details' + strangeProducts[i].details;
-        p2.textContent = 'price' + strangeProducts[i].price;
+        img.setAttribute('src', 'https://unknownlurkr.github.io/funky-products/img/' + strangeProd[i].img);
+        img.setAttribute('alt', strangeProd[i].name);
+        h2.textContent = strangeProd[i].name;
+        p1.textContent = 'details' + strangeProd[i].details;
+        p2.textContent = 'price' + strangeProd[i].price;
         info.appendChild(img);
         info.appendChild(h2);
         info.appendChild(p1);
